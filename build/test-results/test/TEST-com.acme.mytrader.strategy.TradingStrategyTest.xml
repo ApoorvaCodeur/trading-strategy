@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.acme.mytrader.strategy.TradingStrategyTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-22T12:09:06" hostname="Apoorvas-MBP" time="0.008">
+  <properties/>
+  <testcase name="testDecreaseInIbmStockPrice" classname="com.acme.mytrader.strategy.TradingStrategyTest" time="0.008"/>
+  <testcase name="testIncreaseInIbmStockPrice" classname="com.acme.mytrader.strategy.TradingStrategyTest" time="0.0"/>
+  <system-out><![CDATA[TEST :: IBM current stock price changed to 50.0
+Request to buy '100' volumes of IBM stocks at price : 50.0
+Request to buy completed successfully
+IBM Stock revaluation complete
+Trading complete.
+END of TEST
+TEST :: IBM current stock price changed to 60.0
+IBM Stock revaluation complete
+Trading complete.
+END of TEST
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
